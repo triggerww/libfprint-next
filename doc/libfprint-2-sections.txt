@@ -139,8 +139,10 @@ fpi_assemble_lines
 <TITLE>FpiByteReader</TITLE>
 FpiByteReader
 fpi_byte_reader_new
+fpi_byte_reader_new_bytes
 fpi_byte_reader_free
 fpi_byte_reader_init
+fpi_byte_reader_init_bytes
 fpi_byte_reader_peek_sub_reader
 fpi_byte_reader_get_sub_reader
 fpi_byte_reader_set_pos
@@ -148,6 +150,8 @@ fpi_byte_reader_get_pos
 fpi_byte_reader_get_remaining
 fpi_byte_reader_get_size
 fpi_byte_reader_skip
+fpi_byte_reader_get_bytes
+fpi_byte_reader_peek_bytes
 fpi_byte_reader_get_uint8
 fpi_byte_reader_get_int8
 fpi_byte_reader_peek_uint8
