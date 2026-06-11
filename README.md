@@ -1,3 +1,26 @@
+> [!IMPORTANT]
+> This repository is **not the official LibFPrint project**.
+>
+> This fork adds support for the **Next Biometrics NB-2020-U Fingerprint Reader** (USB ID `298d:2020`), a device that is currently listed as unsupported by the upstream project.
+>
+> The implementation is based on the discovery that the NB-2020-U is protocol-compatible with the already supported NB-1010-U and therefore works with the existing driver by adding support for its USB Product ID.
+>
+> This work would not have been possible without the research and documentation published by Sebastian van de Meer:
+>
+> https://www.kernel-error.de/2026/03/01/next-biometrics-nb-2020-u-fingerabdruckleser-linux/
+>
+> **Tested on:**
+>
+> * Fedora 44
+> * Dell Latitude 3470
+> * Next Biometrics NB-2020-U Fingerprint Reader (USB ID `298d:2020`)
+>
+> Original project:
+>
+> https://gitlab.freedesktop.org/libfprint/libfprint
+>
+> All credit for the original LibFPrint project belongs to its contributors. This fork preserves the original license and copyright notices.
+
 
 
 <div align="center">
